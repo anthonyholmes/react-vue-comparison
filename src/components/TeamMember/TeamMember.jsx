@@ -2,11 +2,11 @@ export default {
   props: {
     name: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
 
   render() {
     return <div>{this.name}</div>;
-  }
+  },
 };

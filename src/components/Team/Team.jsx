@@ -11,13 +11,13 @@ export default {
 
     return {
       teamMembers,
-      shuffleMembers
+      shuffleMembers,
     };
   },
   render() {
     return (
       <div>
-        {this.teamMembers.map(tm => (
+        {this.teamMembers.map((tm) => (
           <TeamMember name={tm} key={tm.name} />
         ))}
         <button type="button" onClick={this.shuffleMembers}>
@@ -25,5 +25,5 @@ export default {
         </button>
       </div>
     );
-  }
+  },
 };

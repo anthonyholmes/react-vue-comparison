@@ -1,6 +1,6 @@
 <template>
   <div>
-    <team-member :name="name" v-for="name in teamMembers" :key="name"/>
+    <team-member :name="name" v-for="name in teamMembers" :key="name" />
     <button type="button" @click="shuffleMembers">Shuffle</button>
   </div>
 </template>
